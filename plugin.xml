@@ -29,7 +29,6 @@
       <allow-navigation href="ionic://*"/>
       <!-- <preference name="webView" value="org.crosswalk.engine.XWalkWebViewEngine"/> -->
       <preference name="xwalkVersion" value="$XWALK_VERSION"/>
-      <preference name="xwalkLiteVersion" value="$XWALK_LITEVERSION"/>
       <preference name="xwalkCommandLine" value="$XWALK_COMMANDLINE"/>
       <preference name="xwalkMode" value="$XWALK_MODE" />
       <preference name="xwalkMultipleApk" value="$XWALK_MULTIPLEAPK" />
@@ -50,7 +49,6 @@
     <framework src="com.android.support:support-annotations:$ANDROID_SUPPORT_ANNOTATIONS_VERSION"/>
 
     <preference name="XWALK_VERSION" default="23+"/>
-    <preference name="XWALK_LITEVERSION" default="xwalk_core_library_canary:17+"/>
     <preference name="XWALK_COMMANDLINE" default="--disable-pull-to-refresh-effect"/>
     <preference name="XWALK_MODE" default="embedded" />
     <preference name="XWALK_MULTIPLEAPK" default="true" />
